@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetectiveController">
+            <connections>
+                <outlet property="badTagBtn" destination="vbj-OH-8PJ" id="hPV-jb-4NQ"/>
+                <outlet property="containerView" destination="nDx-gu-lyw" id="Hqn-vE-wWD"/>
+                <outlet property="feedbackBtn" destination="95G-Ao-2iB" id="mJv-LF-pfQ"/>
+                <outlet property="goodTagBtn" destination="YZw-9n-1JS" id="5sY-99-7W2"/>
+                <outlet property="photoUrlLbl" destination="sma-UE-Wc8" id="BK3-fP-bo9"/>
+                <outlet property="searchImv" destination="r16-UR-evi" id="mKx-mu-X2S"/>
+                <outlet property="textContainerFive" destination="NOL-eL-CYn" id="UiE-NN-9II"/>
+                <outlet property="textContainerFour" destination="k9u-hO-hi5" id="3u8-2G-k1J"/>
+                <outlet property="textContainerOne" destination="zai-if-xDz" id="E7s-SB-Lak"/>
+                <outlet property="textContainerThree" destination="Nm9-gR-2Hf" id="FhZ-lK-t6r"/>
+                <outlet property="textContainerTwo" destination="AKS-Y0-MjS" id="Cfx-JC-kJ1"/>
+                <outlet property="titleFiveLbl" destination="UFh-Sy-bcC" id="pBO-xG-vNe"/>
+                <outlet property="titleFourLbl" destination="8SJ-LE-Iun" id="Ycm-SE-7xt"/>
+                <outlet property="titleOneLbl" destination="mcP-Gi-J6H" id="FQ4-Tg-GZx"/>
+                <outlet property="titleThreeLbl" destination="Dqi-mG-In0" id="L4w-LJ-Bti"/>
+                <outlet property="titleTwoLbl" destination="WK5-uV-eCl" id="nrY-bG-Yd9"/>
+                <outlet property="txtfieldFour" destination="Aen-PV-aPj" id="QaP-Fx-bSQ"/>
+                <outlet property="txtfieldOne" destination="TXt-Dr-YHd" id="Bre-cz-j7A"/>
+                <outlet property="txtfieldThree" destination="pXE-g9-n05" id="6zc-f4-ZhW"/>
+                <outlet property="txtfieldTwo" destination="p2e-zf-1cb" id="hWA-Aw-2Mr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nDx-gu-lyw">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zai-if-xDz">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FoodDetective_Problem" translatesAutoresizingMaskIntoConstraints="NO" id="gLn-4m-LKM">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="8" y="3" width="23" height="23"/>
+                                    </variation>
+                                </imageView>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="TXt-Dr-YHd">
+                                    <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="39" y="0.0" width="223" height="30"/>
+                                    </variation>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="TRB-L1-Ff1"/>
+                                    </connections>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="gLn-4m-LKM"/>
+                                    <exclude reference="TXt-Dr-YHd"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="16" y="27" width="270" height="29"/>
+                                <mask key="subviews">
+                                    <include reference="gLn-4m-LKM"/>
+                                    <include reference="TXt-Dr-YHd"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AKS-Y0-MjS">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FoodDetective_brand" translatesAutoresizingMaskIntoConstraints="NO" id="A3R-Kd-GVd">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="8" y="3" width="23" height="23"/>
+                                    </variation>
+                                </imageView>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="p2e-zf-1cb">
+                                    <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="39" y="0.0" width="223" height="30"/>
+                                    </variation>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="TUk-Cn-VEH"/>
+                                    </connections>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="A3R-Kd-GVd"/>
+                                    <exclude reference="p2e-zf-1cb"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="16" y="83" width="270" height="29"/>
+                                <mask key="subviews">
+                                    <include reference="A3R-Kd-GVd"/>
+                                    <include reference="p2e-zf-1cb"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nm9-gR-2Hf">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FoodDetective_location" translatesAutoresizingMaskIntoConstraints="NO" id="fSd-84-Q6t">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="8" y="3" width="23" height="23"/>
+                                    </variation>
+                                </imageView>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="pXE-g9-n05">
+                                    <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="39" y="0.0" width="223" height="30"/>
+                                    </variation>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="e17-XJ-yka"/>
+                                    </connections>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="fSd-84-Q6t"/>
+                                    <exclude reference="pXE-g9-n05"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="16" y="139" width="270" height="29"/>
+                                <mask key="subviews">
+                                    <include reference="fSd-84-Q6t"/>
+                                    <include reference="pXE-g9-n05"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k9u-hO-hi5">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FoodDetective_contact" translatesAutoresizingMaskIntoConstraints="NO" id="EQL-7D-IRh">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="8" y="3" width="23" height="23"/>
+                                    </variation>
+                                </imageView>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Aen-PV-aPj">
+                                    <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="39" y="0.0" width="223" height="30"/>
+                                    </variation>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="1Iy-0N-PdC"/>
+                                    </connections>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="EQL-7D-IRh"/>
+                                    <exclude reference="Aen-PV-aPj"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="16" y="196" width="270" height="29"/>
+                                <mask key="subviews">
+                                    <include reference="EQL-7D-IRh"/>
+                                    <include reference="Aen-PV-aPj"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NOL-eL-CYn">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sma-UE-Wc8">
+                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="18" name="MicrosoftSansSerif"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="86" y="4" width="176" height="21"/>
+                                    </variation>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMu-de-h4C">
+                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                    <state key="normal" image="FoodDetective_photo">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="8" y="0.0" width="30" height="30"/>
+                                    </variation>
+                                    <connections>
+                                        <action selector="takePhotoAct:" destination="-1" eventType="touchUpInside" id="oqx-lo-nqi"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="sma-UE-Wc8"/>
+                                    <exclude reference="zMu-de-h4C"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="16" y="252" width="270" height="29"/>
+                                <mask key="subviews">
+                                    <include reference="sma-UE-Wc8"/>
+                                    <include reference="zMu-de-h4C"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcP-Gi-J6H">
+                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Any problems?">
+                                    <attributes>
+                                        <color key="NSColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="18" name="MicrosoftSansSerif"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="76" y="8" width="151" height="21"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WK5-uV-eCl">
+                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Name of the brand">
+                                    <attributes>
+                                        <color key="NSColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="18" name="MicrosoftSansSerif"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="76" y="64" width="151" height="21"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dqi-mG-In0">
+                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Location">
+                                    <attributes>
+                                        <color key="NSColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="18" name="MicrosoftSansSerif"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="76" y="119" width="151" height="21"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8SJ-LE-Iun">
+                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Company's contact number">
+                                    <attributes>
+                                        <color key="NSColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="18" name="MicrosoftSansSerif"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="49" y="176" width="205" height="21"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFh-Sy-bcC">
+                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Evidence photo">
+                                    <attributes>
+                                        <color key="NSColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="18" name="MicrosoftSansSerif"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="76" y="233" width="151" height="21"/>
+                            </variation>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95G-Ao-2iB">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <state key="normal" title=" " image="FoodDetective_praise">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="heightClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="101" y="285" width="105" height="32"/>
+                            </variation>
+                            <connections>
+                                <action selector="feedbackAct:" destination="-1" eventType="touchUpInside" id="hB0-Nz-dhR"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="zai-if-xDz"/>
+                            <exclude reference="AKS-Y0-MjS"/>
+                            <exclude reference="Nm9-gR-2Hf"/>
+                            <exclude reference="k9u-hO-hi5"/>
+                            <exclude reference="NOL-eL-CYn"/>
+                            <exclude reference="mcP-Gi-J6H"/>
+                            <exclude reference="WK5-uV-eCl"/>
+                            <exclude reference="Dqi-mG-In0"/>
+                            <exclude reference="8SJ-LE-Iun"/>
+                            <exclude reference="UFh-Sy-bcC"/>
+                            <exclude reference="95G-Ao-2iB"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="10" y="47" width="302" height="325"/>
+                        <mask key="subviews">
+                            <include reference="zai-if-xDz"/>
+                            <include reference="AKS-Y0-MjS"/>
+                            <include reference="Nm9-gR-2Hf"/>
+                            <include reference="k9u-hO-hi5"/>
+                            <include reference="NOL-eL-CYn"/>
+                            <include reference="mcP-Gi-J6H"/>
+                            <include reference="WK5-uV-eCl"/>
+                            <include reference="Dqi-mG-In0"/>
+                            <include reference="8SJ-LE-Iun"/>
+                            <include reference="UFh-Sy-bcC"/>
+                            <include reference="95G-Ao-2iB"/>
+                        </mask>
+                    </variation>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZw-9n-1JS">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="FoodDetective_good">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="FoodDetective_goodchose"/>
+                    <variation key="heightClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="65" y="21" width="95" height="25"/>
+                    </variation>
+                    <connections>
+                        <action selector="goodTagAct:" destination="-1" eventType="touchUpInside" id="We6-WC-JOz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbj-OH-8PJ">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="FoodDetective_bad">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="FoodDetective_badchose"/>
+                    <variation key="heightClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="168" y="21" width="95" height="25"/>
+                    </variation>
+                    <connections>
+                        <action selector="badTagAct:" destination="-1" eventType="touchUpInside" id="Pm9-Uw-GtT"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FoodDetectiveSearch" translatesAutoresizingMaskIntoConstraints="NO" id="r16-UR-evi">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="229" y="28" width="53" height="42"/>
+                    </variation>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJK-dI-mYi">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" image="top_close">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="heightClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="8" y="8" width="30" height="30"/>
+                    </variation>
+                    <connections>
+                        <action selector="closeWinAct:" destination="-1" eventType="touchUpInside" id="NPR-eO-TfF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="nDx-gu-lyw"/>
+                    <exclude reference="YZw-9n-1JS"/>
+                    <exclude reference="vbj-OH-8PJ"/>
+                    <exclude reference="r16-UR-evi"/>
+                    <exclude reference="dJK-dI-mYi"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular">
+                <mask key="subviews">
+                    <include reference="nDx-gu-lyw"/>
+                    <include reference="YZw-9n-1JS"/>
+                    <include reference="vbj-OH-8PJ"/>
+                    <include reference="r16-UR-evi"/>
+                    <include reference="dJK-dI-mYi"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="104" y="112"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="FoodDetectiveSearch" width="53" height="42"/>
+        <image name="FoodDetective_Problem" width="23" height="23"/>
+        <image name="FoodDetective_bad" width="190" height="50"/>
+        <image name="FoodDetective_badchose" width="95" height="25"/>
+        <image name="FoodDetective_brand" width="23" height="23"/>
+        <image name="FoodDetective_contact" width="23" height="23"/>
+        <image name="FoodDetective_good" width="190" height="50"/>
+        <image name="FoodDetective_goodchose" width="95" height="25"/>
+        <image name="FoodDetective_location" width="23" height="23"/>
+        <image name="FoodDetective_photo" width="23" height="23"/>
+        <image name="FoodDetective_praise" width="99" height="32"/>
+        <image name="top_close" width="20" height="20"/>
+    </resources>
+</document>

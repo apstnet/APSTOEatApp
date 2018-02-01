@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ToolBarCell" rowHeight="90" id="d8h-b0-xVw">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d8h-b0-xVw" id="9dN-FR-kWI">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXw-dB-oeR">
+                        <rect key="frame" x="21" y="0.0" width="72" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="72" id="ebQ-pl-23G"/>
+                        </constraints>
+                        <state key="normal" image="Restaurants-btn1">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fw-DY-jFL">
+                        <rect key="frame" x="224" y="0.0" width="72" height="70"/>
+                        <state key="normal" image="Products-btn1">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3L-Kp-s5c">
+                        <rect key="frame" x="124" y="0.0" width="72" height="70"/>
+                        <state key="normal" image="Supermarket-btn1">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzt-6X-vWs">
+                        <rect key="frame" x="15" y="60" width="84" height="21"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Restaurants">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="18" name="MicrosoftSansSerif"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="le4-sB-CQE">
+                        <rect key="frame" x="218" y="60" width="84" height="21"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Products">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="18" name="MicrosoftSansSerif"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJT-W9-R0m" userLabel="Markets">
+                        <rect key="frame" x="110" y="61" width="101" height="21"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Markets">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="18" name="MicrosoftSansSerif"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8fw-DY-jFL" firstAttribute="centerX" secondItem="le4-sB-CQE" secondAttribute="centerX" id="06V-7Q-DJb"/>
+                    <constraint firstItem="8fw-DY-jFL" firstAttribute="leading" secondItem="vJT-W9-R0m" secondAttribute="trailing" constant="13" id="8HR-fN-Igj"/>
+                    <constraint firstItem="vJT-W9-R0m" firstAttribute="centerX" secondItem="F3L-Kp-s5c" secondAttribute="centerX" id="8sc-Vf-hc8"/>
+                    <constraint firstItem="XXw-dB-oeR" firstAttribute="baseline" secondItem="F3L-Kp-s5c" secondAttribute="baseline" id="93a-90-uRS"/>
+                    <constraint firstItem="XXw-dB-oeR" firstAttribute="top" secondItem="F3L-Kp-s5c" secondAttribute="top" id="BNh-YL-esT"/>
+                    <constraint firstItem="le4-sB-CQE" firstAttribute="bottom" secondItem="9dN-FR-kWI" secondAttribute="bottomMargin" id="Bx3-Iv-05I"/>
+                    <constraint firstItem="8fw-DY-jFL" firstAttribute="firstBaseline" secondItem="F3L-Kp-s5c" secondAttribute="firstBaseline" id="DNd-sO-vCB"/>
+                    <constraint firstItem="F3L-Kp-s5c" firstAttribute="centerX" secondItem="9dN-FR-kWI" secondAttribute="centerX" id="Fsj-LU-FSd"/>
+                    <constraint firstItem="vJT-W9-R0m" firstAttribute="top" secondItem="9dN-FR-kWI" secondAttribute="topMargin" constant="53" id="KFs-i0-W2m"/>
+                    <constraint firstItem="tzt-6X-vWs" firstAttribute="baseline" secondItem="le4-sB-CQE" secondAttribute="baseline" id="Kmw-7b-vD8"/>
+                    <constraint firstItem="F3L-Kp-s5c" firstAttribute="top" secondItem="9dN-FR-kWI" secondAttribute="top" id="L9v-2X-FHJ"/>
+                    <constraint firstItem="le4-sB-CQE" firstAttribute="firstBaseline" secondItem="tzt-6X-vWs" secondAttribute="firstBaseline" id="Qod-IL-jfz"/>
+                    <constraint firstItem="F3L-Kp-s5c" firstAttribute="top" secondItem="8fw-DY-jFL" secondAttribute="top" id="SC6-5S-Pzm"/>
+                    <constraint firstItem="XXw-dB-oeR" firstAttribute="firstBaseline" secondItem="F3L-Kp-s5c" secondAttribute="firstBaseline" id="X8X-ac-8D2"/>
+                    <constraint firstItem="8fw-DY-jFL" firstAttribute="baseline" secondItem="F3L-Kp-s5c" secondAttribute="baseline" id="ZMW-c0-odg"/>
+                    <constraint firstItem="vJT-W9-R0m" firstAttribute="leading" secondItem="tzt-6X-vWs" secondAttribute="trailing" constant="11" id="bew-00-Nvd"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="XXw-dB-oeR" secondAttribute="bottom" constant="11" id="eKK-hy-fZe"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vJT-W9-R0m" secondAttribute="bottom" constant="-1" id="kmE-Ur-bkK"/>
+                    <constraint firstItem="le4-sB-CQE" firstAttribute="leading" secondItem="F3L-Kp-s5c" secondAttribute="trailing" constant="22" id="llh-jO-0kE"/>
+                    <constraint firstItem="vJT-W9-R0m" firstAttribute="leading" secondItem="XXw-dB-oeR" secondAttribute="trailing" constant="17" id="nEf-lr-EtI"/>
+                    <constraint firstItem="XXw-dB-oeR" firstAttribute="centerX" secondItem="tzt-6X-vWs" secondAttribute="centerX" id="nLf-WY-R84"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="le4-sB-CQE" secondAttribute="trailing" constant="10" id="pjG-4U-1pd"/>
+                    <constraint firstItem="le4-sB-CQE" firstAttribute="leading" secondItem="vJT-W9-R0m" secondAttribute="trailing" constant="7" id="r0I-Gf-8B8"/>
+                    <constraint firstItem="tzt-6X-vWs" firstAttribute="top" secondItem="9dN-FR-kWI" secondAttribute="topMargin" constant="52" id="tvb-Dt-Hzr"/>
+                    <constraint firstItem="tzt-6X-vWs" firstAttribute="leading" secondItem="9dN-FR-kWI" secondAttribute="leadingMargin" constant="7" id="xem-Rn-SeT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="252" y="231"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Products-btn1" width="34" height="34"/>
+        <image name="Restaurants-btn1" width="34" height="34"/>
+        <image name="Supermarket-btn1" width="34" height="34"/>
+    </resources>
+</document>
